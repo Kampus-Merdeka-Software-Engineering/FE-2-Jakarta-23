@@ -1,0 +1,112 @@
+/*reset css*/
+
+.first-page,
+.first-page * {
+  box-sizing: border-box;
+}
+.first-page {
+  background: #ffe0b2;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-22 {
+  width: 1440px;
+  height: 290px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-11 {
+  background: #4caf50;
+  border-radius: 50%;
+  width: 212px;
+  height: 210px;
+  position: absolute;
+  left: 614px;
+  top: 179px;
+  box-shadow: -10px -9px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.ellipse-12 {
+  border-radius: 50%;
+  width: 255px;
+  height: 247px;
+  position: absolute;
+  left: 592px;
+  top: 167px;
+}
+.rectangle-23 {
+  width: 89px;
+  height: 57px;
+  position: absolute;
+  left: 675px;
+  top: 911px;
+}
+.explore-our-products {
+  color: #3e2723;
+  text-decoration: none;
+  text-align: center;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 858px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discover-a-world-of-flavor-at-d-brew-n-d-brunch-hub-our-unique-blend-of-western-breakfast-and-authentic-indonesian-coffee-creates-a-delicious-journey-for-your-taste-buds {
+  text-align: center;
+  position: absolute;
+  left: 212px;
+  top: 423px;
+  width: 1015px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discover-a-world-of-flavor-at-d-brew-n-d-brunch-hub-our-unique-blend-of-western-breakfast-and-authentic-indonesian-coffee-creates-a-delicious-journey-for-your-taste-buds-span {
+  color: #4caf50;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+}
+.discover-a-world-of-flavor-at-d-brew-n-d-brunch-hub-our-unique-blend-of-western-breakfast-and-authentic-indonesian-coffee-creates-a-delicious-journey-for-your-taste-buds-span2 {
+  color: #4caf50;
+  font: 400 30px/150% "Montserrat-Regular", sans-serif;
+}
+.discover-a-world-of-flavor-at-d-brew-n-d-brunch-hub-our-unique-blend-of-western-breakfast-and-authentic-indonesian-coffee-creates-a-delicious-journey-for-your-taste-buds-span3 {
+  color: #3e2723;
+  font: 400 25px/150% "Montserrat-Regular", sans-serif;
+}
+.elevate-your-mornings-with-us-where-every-bite-and-brew-tells-a-story-of-culinary-indulgence-and-cultural-richness-brewing-up-morning-delights {
+  text-align: center;
+  position: absolute;
+  left: 212px;
+  top: 672px;
+  width: 1015px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elevate-your-mornings-with-us-where-every-bite-and-brew-tells-a-story-of-culinary-indulgence-and-cultural-richness-brewing-up-morning-delights-span {
+  color: #3e2723;
+  font: 400 25px/150% "Montserrat-Regular", sans-serif;
+}
+.elevate-your-mornings-with-us-where-every-bite-and-brew-tells-a-story-of-culinary-indulgence-and-cultural-richness-brewing-up-morning-delights-span2 {
+  color: #4caf50;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+}
+.rectangle-24 {
+  width: 82px;
+  height: 85px;
+  position: absolute;
+  left: 684px;
+  top: 559px;
+}
+.rectangle-232 {
+  width: 89px;
+  height: 57px;
+  position: absolute;
+  left: 464px;
+  top: 5380px;
+}
+
