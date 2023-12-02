@@ -124,7 +124,6 @@ html {
   top: 559px;
 }
 
-
 /* reset css */
 
 .home-page,
@@ -147,16 +146,6 @@ html {
   height: 1024px;
   position: relative;
   overflow: hidden;
-}
-.rectangle-15 {
-  background: #4e342e;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
-  position: absolute;
-  left: 41px;
-  top: 51px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
 }
 .background-homepage {
   border-radius: 30px;
@@ -216,7 +205,7 @@ html {
   font: 400 20px/150% "Montserrat-Regular", sans-serif;
   position: absolute;
   left: 1117px;
-  top: 135px;
+  top: 111px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -244,7 +233,7 @@ html {
   font: 400 20px/150% "Montserrat-Regular", sans-serif;
   position: absolute;
   left: 1238px;
-  top: 135px;
+  top: 111px;
   width: 90px;
   display: flex;
   align-items: center;

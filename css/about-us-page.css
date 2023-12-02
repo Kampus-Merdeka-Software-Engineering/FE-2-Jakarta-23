@@ -1,0 +1,314 @@
+.about-us-page,
+.about-us-page * {
+  box-sizing: border-box;
+}
+.about-us-page {
+  background: #3e2723;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  background: #4e342e;
+  border-radius: 30px;
+  width: 1358px;
+  height: 151px;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-30 {
+  border-radius: 30px;
+  width: 1347px;
+  height: 723px;
+  position: absolute;
+  left: 46px;
+  top: 256px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-us {
+  color: #3e2723;
+  text-align: center;
+  font: 800 35px/150% "Montserrat-ExtraBold", sans-serif;
+  position: absolute;
+  left: 635px;
+  top: 381px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse-2 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 50%;
+  width: 106px;
+  height: 102.24px;
+  position: absolute;
+  left: 667px;
+  top: 279px;
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 1);
+}
+.ellipse-5 {
+  border-radius: 50%;
+  width: 64.6px;
+  height: 63.98px;
+  position: absolute;
+  left: 687.7px;
+  top: 298.45px;
+}
+.rectangle-31 {
+  background: rgba(255, 224, 178, 0.6);
+  border-radius: 30px;
+  width: 1172px;
+  height: 514px;
+  position: absolute;
+  left: 137px;
+  top: 437px;
+  backdrop-filter: blur(2px);
+}
+.text {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 800 45px/150% "Montserrat-ExtraBold", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 62px;
+  width: 373px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text2 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 400 30px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 569px;
+  top: 90px;
+  width: 27px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-10 {
+  background: #4caf50;
+  border-radius: 17px;
+  width: 51px;
+  height: 47px;
+  position: absolute;
+  left: 1132px;
+  top: calc(50% - 445px);
+}
+.account {
+  border-radius: 18px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 1139px;
+  top: calc(50% - 441px);
+}
+.account2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 1117px;
+  top: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-102 {
+  background: #4caf50;
+  border-radius: 17px;
+  width: 51px;
+  height: 47px;
+  position: absolute;
+  left: 1251px;
+  top: calc(50% - 445px);
+}
+.account3 {
+  border-radius: 1px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 1260px;
+  top: calc(50% - 439px);
+}
+.my-cart {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 1238px;
+  top: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-1 {
+  width: 85px;
+  height: 0px;
+  position: absolute;
+  left: 1222px;
+  top: 63px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.line-2 {
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  left: 1099px;
+  top: 80px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.line-3 {
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  left: 1336px;
+  top: 80px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.brewing-up-morning-delights {
+  color: #fff5e1;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 707px;
+  top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse-10 {
+  background: #ffe0b2;
+  border-radius: 50%;
+  width: 108px;
+  height: 109.2px;
+  position: absolute;
+  left: 110px;
+  top: 51px;
+}
+.rectangle-14 {
+  border-radius: 19px;
+  width: 102.6px;
+  height: 95.55px;
+  position: absolute;
+  left: 112.7px;
+  top: 56.46px;
+}
+.home {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 465px;
+  top: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us2 {
+  color: #ffe0b2;
+  text-align: left;
+  font: 600 20px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 552px;
+  top: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-products {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 669px;
+  top: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 827px;
+  top: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 932px;
+  top: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fresh-food-made-to-order-we-are-an-innovative-online-marketplace-inspired-by-the-essence-of-coffee-shops-our-curated-selection-includes-a-diverse-range-of-high-quality-coffee-both-traditional-and-non-traditional-dairy-and-non-dairy-options-complemented-by-a-delectable-menu-of-western-bakery-and-pastry-breakfast-items {
+  text-align: justified;
+  font: 400 25px/150% "-", sans-serif;
+  position: absolute;
+  left: 196px;
+  top: 457px;
+  width: 1078px;
+  display: flex;
+  align-items: center;
+  justify-content: undefined;
+}
+.fresh-food-made-to-order-we-are-an-innovative-online-marketplace-inspired-by-the-essence-of-coffee-shops-our-curated-selection-includes-a-diverse-range-of-high-quality-coffee-both-traditional-and-non-traditional-dairy-and-non-dairy-options-complemented-by-a-delectable-menu-of-western-bakery-and-pastry-breakfast-items-span {
+  color: #4caf50;
+  font: 700 25px/150% "Montserrat-Bold", sans-serif;
+}
+.fresh-food-made-to-order-we-are-an-innovative-online-marketplace-inspired-by-the-essence-of-coffee-shops-our-curated-selection-includes-a-diverse-range-of-high-quality-coffee-both-traditional-and-non-traditional-dairy-and-non-dairy-options-complemented-by-a-delectable-menu-of-western-bakery-and-pastry-breakfast-items-span2 {
+  color: #3e2723;
+  font: 500 25px/150% "Montserrat-Medium", sans-serif;
+}
+.commitment-to-excellence-our-commitment-to-excellence-is-evident-in-the-use-of-premium-locally-sourced-indonesian-coffee-processed-with-cutting-edge-technology-in-addition-we-offer-convenience-through-our-provision-of-ready-to-grind-coffee-beans-and-instant-coffee-powder-ensuring-you-can-savor-the-richness-of-our-coffee-anytime-anywhere-brewing-up-morning-delights {
+  text-align: justified;
+  font: 400 25px/150% "-", sans-serif;
+  position: absolute;
+  left: 196px;
+  top: 672px;
+  width: 1078px;
+  display: flex;
+  align-items: center;
+  justify-content: undefined;
+}
+.commitment-to-excellence-our-commitment-to-excellence-is-evident-in-the-use-of-premium-locally-sourced-indonesian-coffee-processed-with-cutting-edge-technology-in-addition-we-offer-convenience-through-our-provision-of-ready-to-grind-coffee-beans-and-instant-coffee-powder-ensuring-you-can-savor-the-richness-of-our-coffee-anytime-anywhere-brewing-up-morning-delights-span {
+  color: #4caf50;
+  font: 700 25px/150% "Montserrat-Bold", sans-serif;
+}
+.commitment-to-excellence-our-commitment-to-excellence-is-evident-in-the-use-of-premium-locally-sourced-indonesian-coffee-processed-with-cutting-edge-technology-in-addition-we-offer-convenience-through-our-provision-of-ready-to-grind-coffee-beans-and-instant-coffee-powder-ensuring-you-can-savor-the-richness-of-our-coffee-anytime-anywhere-brewing-up-morning-delights-span2 {
+  color: #3e2723;
+  font: 500 25px/150% "Montserrat-Medium", sans-serif;
+}
+.commitment-to-excellence-our-commitment-to-excellence-is-evident-in-the-use-of-premium-locally-sourced-indonesian-coffee-processed-with-cutting-edge-technology-in-addition-we-offer-convenience-through-our-provision-of-ready-to-grind-coffee-beans-and-instant-coffee-powder-ensuring-you-can-savor-the-richness-of-our-coffee-anytime-anywhere-brewing-up-morning-delights-span3 {
+  color: #000000;
+  font: 400 25px/150% "Montserrat-Regular", sans-serif;
+}
+.commitment-to-excellence-our-commitment-to-excellence-is-evident-in-the-use-of-premium-locally-sourced-indonesian-coffee-processed-with-cutting-edge-technology-in-addition-we-offer-convenience-through-our-provision-of-ready-to-grind-coffee-beans-and-instant-coffee-powder-ensuring-you-can-savor-the-richness-of-our-coffee-anytime-anywhere-brewing-up-morning-delights-span4 {
+  color: #000000;
+  font: 700 italic 25px/150% "Montserrat-BoldItalic", sans-serif;
+}
+.rectangle-23 {
+  width: 89px;
+  height: 57px;
+  position: absolute;
+  left: 675px;
+  top: 950px;
+}
