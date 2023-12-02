@@ -1,0 +1,135 @@
+/* reset css */
+
+.first-page,
+.first-page * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.first-page {
+  background: #ffe0b2;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-22 {
+  width: 1440px;
+  height: 290px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-11 {
+  background: #4caf50;
+  border-radius: 50%;
+  width: 212px;
+  height: 210px;
+  position: absolute;
+  left: 614px;
+  top: 179px;
+  box-shadow: -10px -9px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.ellipse-12 {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  left: 610px;
+  top: 170px;
+}
+.rectangle-23 {
+  width: 89px;
+  height: 57px;
+  position: absolute;
+  left: 675px;
+  top: 911px;
+}
+.explore-our-products {
+  color: #3e2723;
+  text-decoration: none;
+  text-align: center;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 858px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description-first-page {
+  text-align: center;
+  position: absolute;
+  left: 212px;
+  top: 423px;
+  width: 1015px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description-first-page-span {
+    color: #4caf50;
+    font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+  }
+.description-first-page-span2 {
+  color: #4caf50;
+  font: 400 30px/150% "Montserrat-Regular", sans-serif;
+}
+.description-first-page-span3 {
+  color: #3e2723;
+  font: 400 25px/150% "Montserrat-Regular", sans-serif;
+}
+.description2-first-page {
+  text-align: center;
+  position: absolute;
+  left: 212px;
+  top: 672px;
+  width: 1015px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description2-first-page-span {
+  color: #3e2723;
+  font: 400 25px/150% "Montserrat-Regular", sans-serif;
+}
+.description2-first-page-span2 {
+  color: #4caf50;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+}
+.rectangle-24 {
+  width: 82px;
+  height: 85px;
+  position: absolute;
+  left: 684px;
+  top: 559px;
+}
+.rectangle-232 {
+  width: 89px;
+  height: 57px;
+  position: absolute;
+  left: 464px;
+  top: 5380px;
+}
+/* style.css */
+
+.grow {
+  animation: growAnimation 0.5s ease-out;
+}
+
+@keyframes growAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
