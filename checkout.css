@@ -1,0 +1,397 @@
+.payment,
+.payment * {
+  box-sizing: border-box;
+}
+.payment {
+  background: rgba(255, 224, 178, 0.8);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  background: #3e2723;
+  border-radius: 30px;
+  width: 1358px;
+  height: 151px;
+  position: absolute;
+  left: 41px;
+  top: 30px;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.text {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 800 45px/150% "Montserrat-ExtraBold", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 62px;
+  width: 373px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text2 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 400 30px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 569px;
+  top: 90px;
+  width: 27px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: rgba(255, 245, 225, 0.7);
+  border-radius: 17px;
+  width: 51px;
+  height: 47px;
+  position: absolute;
+  left: 1263px;
+  top: calc(50% - 445px);
+}
+.account {
+  border-radius: 18px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 1270px;
+  top: calc(50% - 441px);
+}
+.account2 {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 1248px;
+  top: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-2 {
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  left: 1230px;
+  top: 80px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.line-3 {
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  left: 1355px;
+  top: 78px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.brewing-up-morning-delights {
+  color: #ffe0b2;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 838px;
+  top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse-10 {
+  background: rgba(255, 224, 178, 0.7);
+  border-radius: 50%;
+  width: 108px;
+  height: 109.2px;
+  position: absolute;
+  left: 110px;
+  top: 51px;
+}
+.rectangle-14 {
+  border-radius: 19px;
+  width: 102.6px;
+  height: 95.55px;
+  position: absolute;
+  left: 112.7px;
+  top: 56.46px;
+}
+.sub-total {
+  color: #3e2723;
+  text-align: left;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 620px;
+}
+.products {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 379px;
+}
+.idr-128-000 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 30px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 456px;
+  top: 620px;
+}
+.shipment {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 457px;
+}
+.cash-on-delivery {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 896px;
+  top: 672px;
+}
+.jl-s-parman-no-8-oro-oro-ombo {
+  color: #3e2723;
+  text-align: left;
+  font: 300 30px/150% "Montserrat-Light", sans-serif;
+  position: absolute;
+  left: 883px;
+  top: 382px;
+  width: 494px;
+}
+.ds-kembangan-rt-011-2 {
+  color: #3e2723;
+  text-align: left;
+  font: 300 30px/150% "Montserrat-Light", sans-serif;
+  position: absolute;
+  left: 883px;
+  top: 516px;
+  width: 494px;
+}
+.ovo-payment {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 896px;
+  top: 754px;
+}
+.internal-courier {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 844px;
+}
+.shipment2 {
+  color: #3e2723;
+  text-align: left;
+  font: 700 italic 35px/150% "Montserrat-BoldItalic", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 773px;
+}
+.idr-10-000 {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 473px;
+  top: 457px;
+}
+.idr-10-0002 {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 469px;
+  top: 844px;
+}
+._4-items {
+  color: #3e2723;
+  text-align: left;
+  font: 500 30px/150% "Montserrat-Medium", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 379px;
+}
+.home {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 587px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-products {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 704px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 862px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart {
+  color: #3e2723;
+  text-align: left;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 967px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.price-detail {
+  color: #3e2723;
+  text-align: justified;
+  font: 700 italic 35px/150% "Montserrat-BoldItalic", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 308px;
+  display: flex;
+  align-items: center;
+  justify-content: undefined;
+}
+.address {
+  color: #3e2723;
+  text-align: justified;
+  font: 700 italic 35px/150% "Montserrat-BoldItalic", sans-serif;
+  position: absolute;
+  left: 824px;
+  top: 307px;
+  display: flex;
+  align-items: center;
+  justify-content: undefined;
+}
+.rectangle-140 {
+  border-radius: 5px;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  left: 824px;
+  top: 382px;
+}
+.rectangle-141 {
+  border-radius: 5px;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  left: 824px;
+  top: 511px;
+}
+.line-13 {
+  width: 59px;
+  height: 0px;
+  position: absolute;
+  left: 847px;
+  top: 441px;
+  transform: translate(-5.33px, -5.33px);
+  overflow: visible;
+}
+.line-14 {
+  width: 543px;
+  height: 0px;
+  position: absolute;
+  left: 634px;
+  top: 598px;
+  transform: translate(-548.33px, -5.33px);
+  overflow: visible;
+}
+.payment2 {
+  color: #3e2723;
+  text-align: justified;
+  font: 700 italic 35px/150% "Montserrat-BoldItalic", sans-serif;
+  position: absolute;
+  left: 824px;
+  top: 598px;
+  display: flex;
+  align-items: center;
+  justify-content: undefined;
+}
+.rectangle-142 {
+  background: rgba(217, 217, 217, 0);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-width: 1px;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  left: 824px;
+  top: 672px;
+}
+.rectangle-143 {
+  background: rgba(217, 217, 217, 0);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-width: 1px;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  left: 824px;
+  top: 752px;
+}
+.rectangle-78 {
+  background: rgba(240, 9, 37, 0.7);
+  border-radius: 30px;
+  width: 373px;
+  height: 58px;
+  position: absolute;
+  left: 811px;
+  top: 845px;
+}
+.make-a-order {
+  color: #3e2723;
+  text-align: center;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 930px;
+  top: 859px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

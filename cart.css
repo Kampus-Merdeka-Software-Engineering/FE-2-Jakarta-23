@@ -1,0 +1,595 @@
+.cart-and-check-out,
+.cart-and-check-out * {
+  box-sizing: border-box;
+}
+.cart-and-check-out {
+  background: rgba(255, 224, 178, 0.8);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  background: #3e2723;
+  border-radius: 30px;
+  width: 1358px;
+  height: 151px;
+  position: absolute;
+  left: 41px;
+  top: 30px;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.text {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 800 45px/150% "Montserrat-ExtraBold", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 62px;
+  width: 373px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text2 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 400 30px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 569px;
+  top: 90px;
+  width: 27px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: rgba(255, 245, 225, 0.7);
+  border-radius: 17px;
+  width: 51px;
+  height: 47px;
+  position: absolute;
+  left: 1263px;
+  top: calc(50% - 445px);
+}
+.account {
+  border-radius: 18px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 1270px;
+  top: calc(50% - 441px);
+}
+.account2 {
+  color: #ffe0b2;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 1248px;
+  top: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-2 {
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  left: 1230px;
+  top: 80px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.line-3 {
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  left: 1355px;
+  top: 78px;
+  transform: translate(-1px, -1px);
+  overflow: visible;
+}
+.brewing-up-morning-delights {
+  color: #ffe0b2;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 838px;
+  top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse-10 {
+  background: rgba(255, 224, 178, 0.7);
+  border-radius: 50%;
+  width: 108px;
+  height: 109.2px;
+  position: absolute;
+  left: 110px;
+  top: 51px;
+}
+.rectangle-14 {
+  border-radius: 19px;
+  width: 102.6px;
+  height: 95.55px;
+  position: absolute;
+  left: 112.7px;
+  top: 56.46px;
+}
+.rectangle-68 {
+  background: rgba(255, 224, 178, 0.4);
+  border-radius: 30px;
+  width: 245px;
+  height: 310px;
+  position: absolute;
+  left: 114px;
+  top: 296px;
+}
+.rectangle-64 {
+  border-radius: 30px;
+  width: 191px;
+  height: 161px;
+  position: absolute;
+  left: 143px;
+  top: 321px;
+}
+.kopi-almond-latte {
+  color: #3e2723;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 150px;
+  top: 502px;
+}
+.rectangle-50 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 10px;
+  width: 45px;
+  height: 44px;
+  position: absolute;
+  left: 283px;
+  top: 539px;
+}
+.rectangle-49 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 10px;
+  width: 122px;
+  height: 44px;
+  position: absolute;
+  left: 133px;
+  top: 539px;
+}
+.idr-25-000 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 546px;
+}
+._2-x {
+  color: #ffe0b2;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 295px;
+  top: 546px;
+}
+. {
+  color: #f00925;
+  text-align: left;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 264px;
+  top: 541px;
+}
+.2 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 332px;
+  top: 543px;
+}
+.rectangle-70 {
+  background: rgba(255, 224, 178, 0.4);
+  border-radius: 30px;
+  width: 245px;
+  height: 310px;
+  position: absolute;
+  left: 114px;
+  top: 626px;
+}
+.rectangle-66 {
+  border-radius: 30px;
+  width: 192px;
+  height: 163px;
+  position: absolute;
+  left: 138px;
+  top: 650px;
+}
+.danish-pastry {
+  color: #3e2723;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 162px;
+  top: 831px;
+}
+.rectangle-492 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 10px;
+  width: 122px;
+  height: 44px;
+  position: absolute;
+  left: 133px;
+  top: 864px;
+}
+.idr-28-000 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 871px;
+}
+.rectangle-69 {
+  border-radius: 10px;
+  width: 46px;
+  height: 44px;
+  position: absolute;
+  left: 296px;
+  top: 864px;
+}
+.rectangle-71 {
+  background: rgba(255, 224, 178, 0.4);
+  border-radius: 30px;
+  width: 245px;
+  height: 310px;
+  position: absolute;
+  left: 386px;
+  top: 296px;
+}
+.rectangle-75 {
+  background: rgba(255, 224, 178, 0.4);
+  border-radius: 30px;
+  width: 460px;
+  height: 215px;
+  position: absolute;
+  left: 811px;
+  top: 467px;
+}
+.danish-pastry2 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 841px;
+  top: 615px;
+}
+.sub-total {
+  color: #3e2723;
+  text-align: left;
+  font: 600 20px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 841px;
+  top: 718px;
+}
+.idr-128-000 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 20px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 1109px;
+  top: 730px;
+}
+.kopi-oat-latte {
+  color: #3e2723;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 841px;
+  top: 569px;
+}
+.rectangle-77 {
+  background: rgba(240, 9, 37, 0.7);
+  border-radius: 30px;
+  width: 373px;
+  height: 58px;
+  position: absolute;
+  left: 859px;
+  top: 792px;
+}
+.rectangle-76 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 30px;
+  width: 460px;
+  height: 82px;
+  position: absolute;
+  left: 811px;
+  top: 324px;
+}
+.rectangle-493 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 10px;
+  width: 127px;
+  height: 44px;
+  position: absolute;
+  left: 404px;
+  top: 543px;
+}
+.idr-25-0002 {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 411px;
+  top: 550px;
+}
+.rectangle-692 {
+  border-radius: 10px;
+  width: 46px;
+  height: 44px;
+  position: absolute;
+  left: 567px;
+  top: 543px;
+}
+.rectangle-72 {
+  border-radius: 30px;
+  width: 192px;
+  height: 163px;
+  position: absolute;
+  left: 410px;
+  top: 320px;
+}
+.kopi-oat-latte2 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 434px;
+  top: 498px;
+}
+.rectangle-73 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 10px;
+  width: 45px;
+  height: 44px;
+  position: absolute;
+  left: 280px;
+  top: 864px;
+}
+._1-x {
+  color: #ffe0b2;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 292px;
+  top: 871px;
+}
+.3 {
+  color: #f00925;
+  text-align: left;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 866px;
+}
+.4 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 329px;
+  top: 868px;
+}
+.rectangle-74 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 10px;
+  width: 45px;
+  height: 44px;
+  position: absolute;
+  left: 555px;
+  top: 543px;
+}
+._2-x2 {
+  color: #ffe0b2;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 567px;
+  top: 550px;
+}
+.5 {
+  color: #f00925;
+  text-align: left;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 536px;
+  top: 545px;
+}
+.6 {
+  color: #3e2723;
+  text-align: left;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 604px;
+  top: 547px;
+}
+.back-to-shopping {
+  color: #3e2723;
+  text-align: center;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 950px;
+  top: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.summary {
+  color: #3e2723;
+  text-align: center;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 995px;
+  top: 478px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kopi-almond-latte2 {
+  color: #3e2723;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 845px;
+  top: 528px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._1 {
+  color: #3e2723;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 1217px;
+  top: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._2 {
+  color: #3e2723;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 1215px;
+  top: 581px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._12 {
+  color: #3e2723;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 1216px;
+  top: 627px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._4 {
+  color: #3e2723;
+  text-align: center;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 1213px;
+  top: 692px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-out {
+  color: #3e2723;
+  text-align: center;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 985px;
+  top: 809px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-7 {
+  width: 623px;
+  height: 0px;
+  position: absolute;
+  left: 720.5px;
+  top: 285px;
+  transform: translate(-2.5px, -2.5px);
+  overflow: visible;
+}
+.no-more-product {
+  color: #3e2723;
+  text-align: center;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 421px;
+  top: 702px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-23 {
+  width: 89px;
+  height: 57px;
+  position: absolute;
+  left: 465px;
+  top: 745px;
+}
+.home {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 527px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 614px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-products {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 731px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: #3e2723;
+  text-align: left;
+  font: 400 20px/150% "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 889px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart {
+  color: #3e2723;
+  text-align: left;
+  font: 700 20px/150% "Montserrat-Bold", sans-serif;
+  position: absolute;
+  left: 994px;
+  top: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
