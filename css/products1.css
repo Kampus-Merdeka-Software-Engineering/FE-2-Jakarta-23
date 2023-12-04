@@ -288,6 +288,14 @@ html {
   left: 401px;
   top: 900px;
 }
+.explore-coffee {
+  color: #ffffff;
+  text-align: left;
+  font: 300 italic 20px/150% "Montserrat-LightItalic", sans-serif;
+  position: absolute;
+  left: 401px;
+  top: 410px;
+}
 .rectangle-34-break {
   background: rgba(255, 224, 178, 0.4);
   border-radius: 30px;
@@ -574,6 +582,14 @@ html {
   left: 603px;
   top: 826px;
 }
+.java-coffee {
+  color: #3e2723;
+  text-align: left;
+  font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
+  position: absolute;
+  left: 635px;
+  top: 826px;
+}
 .pancake {
   color: #3e2723;
   text-align: left;
@@ -628,7 +644,7 @@ html {
   text-align: left;
   font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
   position: absolute;
-  left: 860px;
+  left: 880px;
   top: 826px;
 }
 .rectangle-702 {
@@ -669,7 +685,7 @@ html {
   text-align: left;
   font: 600 italic 20px/150% "Montserrat-SemiBoldItalic", sans-serif;
   position: absolute;
-  left: 1155px;
+  left: 1115px;
   top: 826px;
 }
 .rectangle-504 {
