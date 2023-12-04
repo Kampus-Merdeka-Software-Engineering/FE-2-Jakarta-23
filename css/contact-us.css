@@ -1,10 +1,9 @@
 .contact-us-page,
-.contact-us-page * {
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 html {
   max-width: 100%;
   overflow-x: hidden;
@@ -105,17 +104,17 @@ html {
 }
 .rectangle-14 {
   border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
+  width: 120px;
+  height: 118px;
   position: absolute;
-  left: 112.7px;
-  top: 56.46px;
+  left: 103px;
+  top: 50px;
 }
 .have-a-concern-or-facing-any-issues-reach-out-to-us-promptly-for-immediate-solutions {
   color: rgba(255, 224, 178, 0.85);
   text-align: center;
   position: absolute;
-  left: calc(50% - 378px);
+  left: calc(50% - 377px);
   top: 259px;
   display: flex;
   align-items: center;
@@ -146,7 +145,7 @@ html {
   text-align: left;
   font: 400 20px/150% "Montserrat-Regular", sans-serif;
   position: absolute;
-  left: 509px;
+  left: 466px;
   top: 199px;
   display: flex;
   align-items: center;
@@ -157,7 +156,7 @@ html {
   text-align: left;
   font: 400 20px/150% "Montserrat-Regular", sans-serif;
   position: absolute;
-  left: 596px;
+  left: 553px;
   top: 199px;
   display: flex;
   align-items: center;
@@ -168,7 +167,7 @@ html {
   text-align: left;
   font: 400 20px/150% "Montserrat-Regular", sans-serif;
   position: absolute;
-  left: 713px;
+  left: 670px;
   top: 199px;
   display: flex;
   align-items: center;
@@ -179,7 +178,7 @@ html {
   text-align: left;
   font: 700 20px/150% "Montserrat-Bold", sans-serif;
   position: absolute;
-  left: 871px;
+  left: 828px;
   top: 199px;
   display: flex;
   align-items: center;
@@ -190,7 +189,7 @@ html {
   text-align: left;
   font: 400 20px/150% "Montserrat-Regular", sans-serif;
   position: absolute;
-  left: 976px;
+  left: 933px;
   top: 199px;
   display: flex;
   align-items: center;
@@ -199,7 +198,7 @@ html {
 .name {
   color: #3e2723;
   text-align: center;
-  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  font: 300 25px/150% "Montserrat-Light", sans-serif;
   position: absolute;
   left: 298px;
   top: 373px;
@@ -210,7 +209,7 @@ html {
 .email {
   color: #3e2723;
   text-align: center;
-  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  font: 300 25px/150% "Montserrat-Light", sans-serif;
   position: absolute;
   left: 298px;
   top: 470px;
@@ -220,19 +219,22 @@ html {
 }
 .confirm {
   color: #3e2723;
+  text-decoration: none;
   text-align: center;
   font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
   position: absolute;
   left: 1047px;
+  cursor: pointer;
   top: 762px;
   display: flex;
-  align-items: center;
+  align-items: block;
   justify-content: center;
+  box-sizing: border-box;
 }
 .send-us-your-messages {
   color: #3e2723;
   text-align: center;
-  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  font: 300 25px/150% "Montserrat-Light", sans-serif;
   position: absolute;
   left: 298px;
   top: 567px;
@@ -246,7 +248,7 @@ html {
   width: 875px;
   height: 51px;
   position: absolute;
-  left: 298px;
+  left: 283px;
   top: 415px;
 }
 .rectangle-145 {
@@ -255,7 +257,7 @@ html {
   width: 875px;
   height: 51px;
   position: absolute;
-  left: 298px;
+  left: 283px;
   top: 512px;
 }
 .rectangle-146 {
@@ -264,6 +266,186 @@ html {
   width: 875px;
   height: 119px;
   position: absolute;
-  left: 298px;
+  left: 283px;
   top: 609px;
+}
+
+.rectangle-144 input,
+.rectangle-145 input,
+.rectangle-146 input {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background: transparent;
+}
+/* CSS ACCOUNT */
+.account-user-page,
+.contact-user-page * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.account-user-page {
+  background: rgba(76, 175, 80, 0.8);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-82 {
+  width: 1440px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+  top: 857px;
+  filter: blur(10px);
+}
+.ellipse-19 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 645px;
+  top: 85px;
+}
+.ellipse-20 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 645px;
+  top: 85px;
+}
+.rectangle-107 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 15px;
+  width: 635px;
+  height: 343px;
+  position: absolute;
+  left: 402px;
+  top: 280px;
+}
+.rectangle-108 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 550px;
+  height: 65px;
+  position: absolute;
+  left: 445px;
+  top: 366px;
+}
+.rectangle-109 {
+  background: rgba(76, 175, 80, 0.8);
+  border-radius: 15px;
+  width: 550px;
+  height: 65px;
+  position: absolute;
+  left: 445px;
+  top: 509px;
+}
+.username {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 440px;
+  top: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.password {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 444px;
+  top: 457px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-110 {
+  background: rgba(255, 224, 178, 0.8);
+  border-radius: 10px;
+  width: 633px;
+  height: 56px;
+  position: absolute;
+  left: 403px;
+  top: 728px;
+}
+.or {
+  color: #000000;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 706px;
+  top: 737px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-111 {
+  background: #3e2723;
+  border-radius: 6px;
+  width: 630px;
+  height: 61px;
+  position: absolute;
+  left: 405px;
+  top: 821px;
+}
+.rectangle-112 {
+  background: #4caf50;
+  border-radius: 6px;
+  width: 630px;
+  height: 61px;
+  position: absolute;
+  left: 405px;
+  top: 645px;
+}
+.sign-in {
+  color: #3e2723;
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 676px;
+  top: 654px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up {
+  color: rgba(255, 224, 178, 0.8);
+  text-align: center;
+  font: 600 25px/150% "Montserrat-SemiBold", sans-serif;
+  position: absolute;
+  left: 670px;
+  top: 835px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-115 {
+  background: rgba(255, 224, 178, 0.5);
+  border-radius: 12px;
+  width: 77px;
+  height: 76px;
+  position: absolute;
+  left: 1264px;
+  top: 85px;
+}
+.rectangle-114 {
+  width: 69px;
+  height: 65px;
+  position: absolute;
+  left: 1269px;
+  top: 90px;
 }

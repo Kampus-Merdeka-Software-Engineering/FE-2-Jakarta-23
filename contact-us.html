@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" type="text/css>" href="./css/contact-us.css" />
+    <link rel="stylesheet" type="text/css" href="./css/contact-us.css" />
+    <script src="./js/form-contact-us.js"></script>
   </head>
   <body>
     <div class="contact-us-page">
@@ -12,13 +13,17 @@
       <div class="rectangle-15"></div>
       <div class="text">D’Brew N <br />D’Brunch Hub</div>
       <div class="text2">®</div>
+      <a href="./account.html">
       <div class="account">Account</div>
+    </a>
+    <a href="./cart.html">
       <div class="my-cart">My Cart</div>
+    </a>
       <div class="brewing-up-morning-delights">
         &quot;Brewing Up Morning Delights&quot;
       </div>
       <div class="ellipse-10"></div>
-      <img class="rectangle-14" src="rectangle-140.png" />
+      <img class="rectangle-14" src="./img/logo.png" />
       <div
         class="have-a-concern-or-facing-any-issues-reach-out-to-us-promptly-for-immediate-solutions"
       >
@@ -35,19 +40,37 @@
           </span
         ></span>
       </div>
-      <img class="rectangle-82" src="rectangle-820.png" />
-      <div class="home">Home</div>
+      <img class="rectangle-82" src="./img/Rectangle-82.png" />
+      <a href="./homepage.html">
+        <div class="home">Home</div>
+      </a>
+      <a href="./about-us-page.html">
       <div class="about-us">About Us</div>
-      <div class="our-products">Our Products</div>
-      <div class="contact">Contact</div>
-      <div class="cart">Cart</div>
+      </a>
+      <a href="./main-product-1.html">
+        <div class="our-products">Our Products</div>
+      <a href="./contact-us.html">
+        <div class="contact">Contact</div>
+      </a>
+      <a href="./cart.html">
+        <div class="cart">Cart</div>
+      </a>
       <div class="name">Name</div>
       <div class="email">Email</div>
-      <div class="confirm">Confirm</div>
+     <div class="confirm" onclick="submitForm()">Confirm</div>
       <div class="send-us-your-messages">Send us your messages</div>
-      <div class="rectangle-144"></div>
-      <div class="rectangle-145"></div>
-      <div class="rectangle-146"></div>
+      <div class="rectangle-144">
+        <input type="name" placeholder="Please enter your name here">
+      </div>
+    
+      <div class="rectangle-145">
+        <input type="email" placeholder="Please enter your email here">
+      </div>
+    
+      <div class="rectangle-146">
+        <input type="messages" placeholder="Please enter your messages here">
+      </div>
     </div>
+     
   </body>
 </html>
