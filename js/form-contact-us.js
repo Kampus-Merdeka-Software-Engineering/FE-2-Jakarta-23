@@ -18,3 +18,24 @@ function submitForm() {
     },
   });
 }
+document.addEventListener("DOMContentLoaded", function () {
+  function signIn() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Proses signin
+    // melakukan verifikasi
+
+    alert("Sign In\nUsername: " + username + "\nPassword: " + password);
+  }
+
+  function signUp() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Proses signup
+    // menyimpan informasi akun baru
+
+    alert("Sign Up\nUsername: " + username + "\nPassword: " + password);
+  }
+});

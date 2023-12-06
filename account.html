@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Account</title>
     <link rel="stylesheet" type="text/css" href="./css/contact-us.css" />
+    <script src="./js/form-contact-us.js"></script>
   </head>
   <body>
     <div class="account-user-page">
@@ -13,22 +14,30 @@
       <img class="ellipse-20" src="./img/Ellipse 20.svg" />
       <div class="rectangle-107"></div>
 
-      <div class="rectangle-108"></div>
-      <input type="username" placeholder="Please enter your username here" />
-      <div class="rectangle-109"></div>
-      <input type="password" placeholder="Please enter your password here" />
+      <div class="rectangle-108">
+        <input type="username" placeholder="Please enter your username here" />
+      </div>
+      <div class="rectangle-109">
+        <input type="password" placeholder="Please enter your password here" />
+      </div>
 
       <div class="username">Username</div>
       <div class="password">Password</div>
-
       <div class="rectangle-110"></div>
       <div class="or">or</div>
       <div class="rectangle-111"></div>
       <div class="rectangle-112"></div>
-      <div class="sign-in">Sign In</div>
+      <button class="sign-in" onclick="signIn()">Sign In</button>
+      <a href="./signup.html">
       <div class="sign-up">Sign Up</div>
+    </a>
+      <a href="./homepage.html">
       <div class="rectangle-115"></div>
-      <img class="rectangle-114" src="./img/Rectangle 114.png" />
+            <img class="rectangle-114" src="./img/Rectangle 114.png" />
+          </a>
     </div>
+    
+   
+  </div>
   </body>
 </html>
