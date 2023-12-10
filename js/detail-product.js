@@ -1,42 +1,27 @@
-function hideAllPages() {
-  document.getElementById("kopi-hitam").style.display = "none";
-  document.getElementById("kopi-susu-tubruk").style.display = "none";
-  document.getElementById("kopi-oat-latte").style.display = "none";
-  document.getElementById("kopi-almond-latte").style.display = "none";
-  document.getElementById("kopi-cappuccino").style.display = "none";
-  document.getElementById("kopi-susu").style.display = "none";
-}
+$(document).ready(function () {
+  // Semua elemen detail disembunyikan secara default
+  $("[class^='detail']").hide();
 
-document.addEventListener("DOMContentLoaded", function () {
-  hideAllPages();
+  // Fungsi yang akan dipanggil saat tautan di klik
+  $(".product-link").click(function (e) {
+    // Mengambil ID dari href tautan
+    var selectedId = $(this).attr("href");
+
+    // Menyembunyikan semua detail
+    $("[class^='detail']").hide();
+
+    // Menampilkan detail berdasarkan ID yang terpilih
+    $(selectedId).show();
+
+    e.preventDefault(); // Mencegah tautan mengarahkan ke halaman baru
+  });
+
+  // Pemanggilan contoh fungsi untuk menampilkan elemen dengan ID 1 secara otomatis
+  showElement("#1");
 });
 
-function showKopiHitam() {
-  hideAllPages();
-  document.getElementById("kopi-hitam").style.display = "block";
-}
-
-function showKopiSusuTubruk() {
-  hideAllPages();
-  document.getElementById("kopi-susu-tubruk").style.display = "block";
-}
-
-function showKopiOatLatte() {
-  hideAllPages();
-  document.getElementById("kopi-oat-latte").style.display = "block";
-}
-
-function showKopiAlmondLatte() {
-  hideAllPages();
-  document.getElementById("kopi-almond-latte").style.display = "block";
-}
-
-function showKopiCappuccino() {
-  hideAllPages();
-  document.getElementById("kopi-cappuccino").style.display = "block";
-}
-
-function showKopiSusu() {
-  hideAllPages();
-  document.getElementById("kopi-susu").style.display = "block";
+// Fungsi untuk menampilkan elemen dengan ID tertentu
+function showElement(elementId) {
+  // Menampilkan elemen dengan ID sesuai
+  $(elementId).show();
 }

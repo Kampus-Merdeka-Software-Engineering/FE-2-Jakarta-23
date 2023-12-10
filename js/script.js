@@ -25,7 +25,29 @@ connection.connect((err) => {
   console.log("Connected to MySQL as id " + connection.threadId);
 });
 
-// Endpoint signup untuk MySQL
+// Endpoint signup untuk$(document).ready(function() {
+  // Hide all products initially
+  $(".product").hide();
+
+  // Show the default product (kopi-hitam)
+  $("#1").show();
+
+  // Handle click events on the links
+  $("a").on("click", function(event) {
+    // Prevent the default behavior of the link
+    event.preventDefault();
+
+    // Get the target ID from the href attribute
+    var targetId = $(this).attr("href");
+
+    // Hide all products
+    $(".product").hide();
+
+    // Show the clicked product
+    $(targetId).show();
+  });
+});
+ MySQL
 app.post("/api/signup", (req, res) => {
   const { username, password } = req.body;
 
