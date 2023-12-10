@@ -1,7 +1,15 @@
 .product-detail-kopi-hitam,
 .product-detail-kopi-hitam * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .product-detail-kopi-hitam {
   background: #ffe0b2;
   border-style: solid;
@@ -128,7 +136,7 @@
   left: 1220px;
   top: 854px;
 }
-.a-pure-coffee-beverage-brewed-without-the-addition-of-milk-cream-or-sugar-with-a-focus-on-the-essence-of-coffee-beans-black-coffee-delivers-an-authentic-and-rich-tasting-experience-without-any-additional-touches-this-beverage-preserves-the-unique-characteristics-of-coffee-bean-varieties-providing-pleasure-with-every-sip {
+.desc-kopi-hitam {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -199,13 +207,6 @@
   left: 86.7px;
   top: 56.46px;
 }
-.rectangle-88 {
-  width: 108px;
-  height: 160px;
-  position: absolute;
-  left: 699px;
-  top: 665px;
-}
 .large {
   color: #3e2723;
   text-align: center;
@@ -215,7 +216,7 @@
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 858px;
+  left: 739px;
   top: 679px;
   display: flex;
   align-items: center;
@@ -230,7 +231,7 @@
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 858px;
+  left: 739px;
   top: 726px;
   display: flex;
   align-items: center;
@@ -245,7 +246,7 @@
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 858px;
+  left: 739px;
   top: 773px;
   display: flex;
   align-items: center;
@@ -257,7 +258,7 @@
   width: 28px;
   height: 24px;
   position: absolute;
-  left: 819px;
+  left: 700px;
   top: 688px;
 }
 .rectangle-90 {
@@ -266,7 +267,7 @@
   width: 28px;
   height: 24px;
   position: absolute;
-  left: 819px;
+  left: 700px;
   top: 733px;
 }
 .rectangle-91 {
@@ -275,7 +276,7 @@
   width: 28px;
   height: 24px;
   position: absolute;
-  left: 819px;
+  left: 700px;
   top: 780px;
 }
 .hot {
@@ -287,7 +288,7 @@
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 1121px;
+  left: 1002px;
   top: 688px;
   display: flex;
   align-items: center;
@@ -302,7 +303,7 @@
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 1121px;
+  left: 1002px;
   top: 735px;
   display: flex;
   align-items: center;
@@ -314,7 +315,7 @@
   width: 28px;
   height: 24px;
   position: absolute;
-  left: 1073px;
+  left: 954px;
   top: 695px;
 }
 .rectangle-94 {
@@ -323,7 +324,7 @@
   width: 28px;
   height: 24px;
   position: absolute;
-  left: 1073px;
+  left: 954px;
   top: 742px;
 }
 .home {

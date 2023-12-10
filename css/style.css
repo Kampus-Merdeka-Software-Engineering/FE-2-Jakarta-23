@@ -208,6 +208,8 @@ html {
   border-radius: 30px;
   box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(10px);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 
 .rectangle-15::before {
@@ -221,6 +223,8 @@ html {
   border-radius: inherit;
   box-shadow: inherit;
   filter: blur(10px);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 
 .close-up-delicious-healthy-breakfast-1 {
@@ -230,6 +234,8 @@ html {
   position: absolute;
   left: calc(50% - 679px);
   top: calc(50% - 255px);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .text {
   color: rgba(255, 224, 178, 0.8);
@@ -243,6 +249,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .text2 {
   color: rgba(255, 224, 178, 0.8);
@@ -256,6 +264,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-10 {
   background: #4caf50;
@@ -265,6 +275,8 @@ html {
   position: absolute;
   left: 1132px;
   top: calc(50% - 424px);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .account2 {
   color: #ffffff;
@@ -277,6 +289,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-102 {
   background: #4caf50;
@@ -286,6 +300,8 @@ html {
   position: absolute;
   left: 1250.83px;
   top: calc(50% - 424px);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .my-cart {
   color: #ffffff;
@@ -298,6 +314,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .line-1 {
   width: 85px;
@@ -307,6 +325,8 @@ html {
   top: 84px;
   transform: translate(-1px, -1px);
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .line-2 {
   width: 50px;
@@ -316,6 +336,8 @@ html {
   top: 101px;
   transform: translate(-1px, -1px);
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .line-3 {
   width: 50px;
@@ -325,6 +347,8 @@ html {
   top: 101px;
   transform: translate(-1px, -1px);
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .learn-more {
   color: #ffe0b2;
@@ -336,6 +360,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-5 {
   width: 306px;
@@ -344,6 +370,8 @@ html {
   left: 169px;
   top: 366px;
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .about-us-2 {
   color: #fff5e1;
@@ -355,6 +383,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .d-brew-n-d-brunch-hub-the-first-blend-of-a-coffee-shop-and-marketplace-that-brings-the-cafe-atmosphere-directly-to-your-home-discover-a-variety-of-high-quality-coffee-options {
   color: #fff5e1;
@@ -367,6 +397,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-2 {
   background: #a1887f;
@@ -377,6 +409,8 @@ html {
   left: 272px;
   top: 293px;
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 1);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-5 {
   border-radius: 50%;
@@ -385,6 +419,8 @@ html {
   position: absolute;
   left: 293px;
   top: 313px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .learn-more2 {
   color: #ffe0b2;
@@ -396,6 +432,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-9 {
   width: 306px;
@@ -404,6 +442,8 @@ html {
   left: 569px;
   top: 366px;
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .our-products {
   color: #fff5e1;
@@ -415,6 +455,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .indulge-in-endless-delights-with-the-finest-selection-of-crafted-coffees-tempting-western-breakfasts-and-premium-quality-coffee-beans-all-available-right-here {
   color: #fff5e1;
@@ -427,6 +469,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .learn-more3 {
   color: #ffe0b2;
@@ -438,6 +482,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-6 {
   background: #a1887f;
@@ -448,6 +494,8 @@ html {
   left: 672px;
   top: 293px;
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 1);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-7 {
   border-radius: 50%;
@@ -456,6 +504,8 @@ html {
   position: absolute;
   left: 682px;
   top: 311px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-8 {
   border-radius: 0px;
@@ -465,6 +515,8 @@ html {
   left: 512px;
   top: 837px;
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .choose-my-plan {
   color: #ffe0b2;
@@ -474,6 +526,8 @@ html {
   left: 621.96px;
   top: 860px;
   width: 310.34px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-11 {
   width: 63px;
@@ -481,6 +535,8 @@ html {
   position: absolute;
   left: 538px;
   top: 847px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .line-4 {
   width: 34px;
@@ -490,6 +546,8 @@ html {
   top: 866px;
   transform: translate(-2px, -2px);
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .line-5 {
   width: 34px;
@@ -499,6 +557,8 @@ html {
   top: 866px;
   transform: translate(-2px, -2px);
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-103 {
   width: 306px;
@@ -507,6 +567,8 @@ html {
   left: 969px;
   top: 367px;
   overflow: visible;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .contact-us {
   color: #fff5e1;
@@ -518,6 +580,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .learn-more4 {
   color: #ffe0b2;
@@ -529,6 +593,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-8 {
   background: #a1887f;
@@ -539,6 +605,8 @@ html {
   left: 1072px;
   top: 294px;
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 1);
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-9 {
   border-radius: 50%;
@@ -547,6 +615,8 @@ html {
   position: absolute;
   left: 1089px;
   top: 309px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .we-are-ready-to-serve-you-with-pleasure-share-your-feedback-we-are-here-to-ensure-customer-satisfaction-make-every-contact-a-step-toward-exceptional-service {
   color: #fff5e1;
@@ -560,6 +630,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .brewing-up-morning-delights {
   color: #fff5e1;
@@ -571,6 +643,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .ellipse-10 {
   background: #ffe0b2;
@@ -580,6 +654,8 @@ html {
   position: absolute;
   left: 110px;
   top: 72px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .rectangle-14 {
   border-radius: 19px;
@@ -588,6 +664,8 @@ html {
   position: absolute;
   left: 105px;
   top: 71px;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .home {
   color: #ffe0b2;
@@ -599,7 +677,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
+
 .about-us {
   color: #ffe0b2;
   text-align: left;
@@ -610,6 +691,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .our-products2 {
   color: #ffe0b2;
@@ -621,6 +704,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .contact {
   color: #ffe0b2;
@@ -632,6 +717,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 .cart {
   color: #ffe0b2;
@@ -643,6 +730,19 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  animation: fadeInUp;
+  animation-duration: 0.5s;
 }
 
+@keyframes flyUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+#explore-link {
+  animation: flyUp 0.5s ease-out;
+}
 /* css main product 1 */
