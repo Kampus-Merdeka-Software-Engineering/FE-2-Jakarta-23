@@ -1,4 +1,4 @@
-/* CSS 1 */
+/* css1 */
 .croissant,
 .croissant * {
   box-sizing: border-box;
@@ -144,7 +144,7 @@ html {
   justify-content: flex-start;
   z-index: 1200;
 }
-.subtitle {
+.subtitle1 {
   margin-top: 3px;
   color: #ffe0b2;
   text-align: center;
@@ -161,7 +161,7 @@ html {
   justify-content: center;
   z-index: 1200;
 }
-.logo-back {
+.logo-back1 {
   margin-top: 3px;
   background: rgba(255, 224, 178, 0.7);
   border-radius: 50%;
@@ -172,7 +172,7 @@ html {
   top: 60px;
   z-index: 1200;
 }
-.logo {
+.logo1 {
   margin-top: 3px;
   border-radius: 19px;
   width: 117px;
@@ -206,7 +206,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-.croissant2 {
+.croissant1 {
   border-radius: 95px;
   width: 506px;
   height: 443px;
@@ -215,7 +215,7 @@ html {
   top: 302px;
   box-shadow: -10px 10px 8px 4px rgba(0, 0, 0, 0.25);
 }
-.gradient {
+.gradient1 {
   background: rgba(255, 224, 178, 0.5);
   border-radius: 60px;
   width: 186px;
@@ -225,7 +225,7 @@ html {
   top: 302px;
   filter: blur(25px);
 }
-.price-rectangle {
+.price-rectangle1 {
   background: rgba(76, 175, 80, 0.8);
   border-radius: 20px;
   width: 476px;
@@ -235,7 +235,7 @@ html {
   top: 854px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.promo-rectangle {
+.promo-rectangle1 {
   background: #f00925;
   border-radius: 20px;
   width: 503px;
@@ -245,7 +245,7 @@ html {
   top: 854px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.get-promo {
+.get-promo1 {
   color: #ffffff;
   text-align: left;
   font-family: "Montserrat-SemiBold", sans-serif;
@@ -256,7 +256,7 @@ html {
   left: 252px;
   top: 859px;
 }
-.add {
+.add1 {
   border-radius: 20px;
   opacity: 0.699999988079071;
   width: 80px;
@@ -280,7 +280,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.options {
+.options1 {
   color: rgba(30, 30, 30, 0.5);
   text-align: justified;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -295,7 +295,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.croissant3 {
+.croissant2 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -307,7 +307,7 @@ html {
   left: 276px;
   top: 774px;
 }
-.idr-25-k {
+.idr-25-k1 {
   color: #ffffff;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -319,7 +319,7 @@ html {
   left: 860px;
   top: 859px;
 }
-.large {
+.large1 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -334,7 +334,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium {
+.medium1 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -349,7 +349,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small {
+.small1 {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -364,7 +364,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.cek-1 {
+.cek-11 {
   background: rgba(76, 175, 80, 0.24);
   border-radius: 5px;
   width: 28px;
@@ -373,7 +373,7 @@ html {
   left: 700px;
   top: 688px;
 }
-.cek-2 {
+.cek-21 {
   background: rgba(76, 175, 80, 0.24);
   border-radius: 5px;
   width: 28px;
@@ -382,7 +382,7 @@ html {
   left: 700px;
   top: 733px;
 }
-.cek-3 {
+.cek-31 {
   background: rgba(76, 175, 80, 0.24);
   border-radius: 5px;
   width: 28px;
@@ -391,7 +391,7 @@ html {
   left: 700px;
   top: 780px;
 }
-.Original {
+.original1 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -406,7 +406,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.Extrasugar {
+.extrasweet1 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -421,7 +421,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.cek-4 {
+.cek-41 {
   background: rgba(76, 175, 80, 0.24);
   border-radius: 5px;
   width: 28px;
@@ -430,7 +430,7 @@ html {
   left: 954px;
   top: 695px;
 }
-.cek-5 {
+.cek-51 {
   background: rgba(76, 175, 80, 0.24);
   border-radius: 5px;
   width: 28px;
@@ -441,6 +441,7 @@ html {
 }
 
 /* CSS 2 */
+
 .quiche,
 .quiche * {
   box-sizing: border-box;
@@ -561,7 +562,7 @@ html {
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 213px;
+  left: 310px;
   top: 772px;
 }
 .idr-25-k-2 {
@@ -663,7 +664,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.Extrasweet-2 {
+.extrasweet-2 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -876,7 +877,7 @@ html {
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 213px;
+  left: 300px;
   top: 772px;
 }
 .idr-25-k-3 {
@@ -963,7 +964,7 @@ html {
   left: 707px;
   top: 787px;
 }
-.Original-3 {
+.original-3 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -978,7 +979,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.Extrasugar-3 {
+.extrasweet-3 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1011,7 +1012,6 @@ html {
   left: 961px;
   top: 749px;
 }
-
 /* CSS 4 */
 
 .pancake,
@@ -1197,7 +1197,7 @@ html {
   left: 709px;
   top: 780px;
 }
-.Original-4 {
+.original-4 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1212,7 +1212,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.Extrasugar-4 {
+.extrasweet-4 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1254,7 +1254,7 @@ html {
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 213px;
+  left: 300px;
   top: 772px;
 }
 .idr-25-k {
@@ -1269,7 +1269,6 @@ html {
   left: 860px;
   top: 859px;
 }
-
 /* CSS 5 */
 
 .muffins,
@@ -1392,7 +1391,7 @@ html {
   font-weight: 600;
   font-style: italic;
   position: absolute;
-  left: 213px;
+  left: 310px;
   top: 772px;
 }
 .idr-25-k-5 {
@@ -1497,7 +1496,7 @@ html {
   left: 707px;
   top: 780px;
 }
-.Original-5 {
+.original-5 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1512,7 +1511,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.Extrasugar-5 {
+.extrasweet-5 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1736,7 +1735,7 @@ html {
   left: 707px;
   top: 775px;
 }
-.Original-6 {
+.original-6 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1751,7 +1750,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.Extrasugar-6 {
+.extrasweet-6 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
