@@ -2,10 +2,8 @@
 .kopi-hitam,
 .kopi-hitam * {
   box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
-
 }
 
 html {
@@ -13,26 +11,92 @@ html {
   overflow-x: hidden;
 }
 
-.kopi-hitam {
-  background: #ffe0b2;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 1440px;
-  height: 1024px;
-  position: relative;
-  overflow: hidden;
-}
-.header {
-  background: #3e2723;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
+.home {
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
   position: absolute;
-  left: 41px;
-  top: 30px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  left: 720px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+.about-us {
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 820px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-products {
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 950px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 1119px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.account {
+  color: #ffe0b2;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 1119px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.my-cart {
+  color: #ffe0b2;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 1240px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .title {
   color: rgba(255, 224, 178, 0.8);
   text-align: left;
@@ -42,7 +106,7 @@ html {
   font-weight: 800;
   position: absolute;
   left: 244px;
-  top: 62px;
+  top: 70px;
   width: 373px;
   height: 87px;
   display: flex;
@@ -58,7 +122,7 @@ html {
   font-weight: 400;
   position: absolute;
   left: 569px;
-  top: 90px;
+  top: 99px;
   width: 27px;
   height: 30px;
   display: flex;
@@ -75,10 +139,50 @@ html {
   font-style: italic;
   position: absolute;
   left: 707px;
-  top: 90px;
+  top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.logo-back {
+  background: rgba(255, 224, 178, 0.7);
+  border-radius: 50%;
+  width: 108px;
+  height: 109.2px;
+  position: absolute;
+  left: 84px;
+  top: 60px;
+}
+.logo {
+  border-radius: 19px;
+  width: 117px;
+  height: 117px;
+  position: absolute;
+  left: 80px;
+  top: 60px;
+
+}
+.header {
+  background: rgba(62, 39, 35, 0.8);
+  border-radius: 30px;
+  width: 1358px;
+  height: 190px;
+  position: absolute;
+  left: 41px;
+  top: 30px;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+
+}
+.kopi-hitam {
+  background: #ffe0b2;
+  border-style: solid;
+  border-color: #ffe0b2;
+  border-width: 1px;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
 }
 .kopi-hitam2 {
   border-radius: 95px;
@@ -192,23 +296,6 @@ html {
   position: absolute;
   left: 860px;
   top: 859px;
-}
-.logo-back {
-  background: rgba(255, 224, 178, 0.7);
-  border-radius: 50%;
-  width: 108px;
-  height: 109.2px;
-  position: absolute;
-  left: 84px;
-  top: 51px;
-}
-.logo {
-  border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
-  position: absolute;
-  left: 86.7px;
-  top: 56.46px;
 }
 .large {
   color: #3e2723;
@@ -330,111 +417,11 @@ html {
   left: 954px;
   top: 742px;
 }
-.home {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 564px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.about-us {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 651px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.our-products {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 700;
-  position: absolute;
-  left: 768px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contact {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 926px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.cart {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1031px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.account {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1119px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.my-cart {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1240px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
 /* CSS 2 */
 
 .kopi-susu-tubruk,
 .kopi-susu-tubruk * {
-  box-sizing: border-box;
-  box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -447,140 +434,14 @@ html {
 .kopi-susu-tubruk {
   background: #ffe0b2;
   border-style: solid;
-  border-color: #000000;
+  border-color: #ffe0b2;
   border-width: 1px;
   width: 1440px;
   height: 1024px;
   position: relative;
   overflow: hidden;
 }
-.header-2 {
-  background: #3e2723;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
-  position: absolute;
-  left: 41px;
-  top: 30px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
-.title-2 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-ExtraBold", sans-serif;
-  font-size: 45px;
-  line-height: 150%;
-  font-weight: 800;
-  position: absolute;
-  left: 244px;
-  top: 62px;
-  width: 373px;
-  height: 87px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.r-2 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 30px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 569px;
-  top: 90px;
-  width: 27px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.subtitle-2 {
-  color: #ffe0b2;
-  text-align: center;
-  font-family: "Montserrat-SemiBoldItalic", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 600;
-  font-style: italic;
-  position: absolute;
-  left: 707px;
-  top: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-2 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 465px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.about-us-2 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 552px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.our-products-2 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 700;
-  position: absolute;
-  left: 669px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contact-2 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 827px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.cart-2 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 932px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .kopi-susu-tubruk2 {
   border-radius: 95px;
   width: 506px;
@@ -693,23 +554,6 @@ html {
   position: absolute;
   left: 860px;
   top: 859px;
-}
-.logo-back-2 {
-  background: rgba(255, 224, 178, 0.7);
-  border-radius: 50%;
-  width: 108px;
-  height: 109.2px;
-  position: absolute;
-  left: 84px;
-  top: 51px;
-}
-.logo-2 {
-  border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
-  position: absolute;
-  left: 86.7px;
-  top: 56.46px;
 }
 .large-2 {
   color: #3e2723;
@@ -831,34 +675,6 @@ html {
   left: 954px;
   top: 742px;
 }
-.account-2 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1123px;
-  top: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.my-cart-2 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1244px;
-  top: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
 /* CSS 3 */
 
@@ -876,70 +692,14 @@ html {
 .kopi-oat-latte {
   background: #ffe0b2;
   border-style: solid;
-  border-color: #000000;
+  border-color: #ffe0b2;
   border-width: 1px;
   width: 1440px;
   height: 1024px;
   position: relative;
   overflow: hidden;
 }
-.header-3 {
-  background: #3e2723;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
-  position: absolute;
-  left: 41px;
-  top: 30px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
-.title-3 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-ExtraBold", sans-serif;
-  font-size: 45px;
-  line-height: 150%;
-  font-weight: 800;
-  position: absolute;
-  left: 244px;
-  top: 62px;
-  width: 373px;
-  height: 87px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.r-3 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 30px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 569px;
-  top: 90px;
-  width: 27px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.subtitle-3 {
-  color: #ffe0b2;
-  text-align: center;
-  font-family: "Montserrat-SemiBoldItalic", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 600;
-  font-style: italic;
-  position: absolute;
-  left: 707px;
-  top: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .home-3 {
   color: #3e2723;
   text-align: left;
@@ -996,20 +756,7 @@ html {
   align-items: center;
   justify-content: flex-start;
 }
-.cart-3 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 932px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .kopi-oat-latte2 {
   border-radius: 95px;
   width: 506px;
@@ -1122,23 +869,6 @@ html {
   position: absolute;
   left: 860px;
   top: 859px;
-}
-.logo-back-3 {
-  background: rgba(255, 224, 178, 0.7);
-  border-radius: 50%;
-  width: 108px;
-  height: 109.2px;
-  position: absolute;
-  left: 84px;
-  top: 51px;
-}
-.logo-3 {
-  border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
-  position: absolute;
-  left: 86.7px;
-  top: 56.46px;
 }
 .large-3 {
   color: #3e2723;
@@ -1260,34 +990,6 @@ html {
   left: 961px;
   top: 749px;
 }
-.account-3 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1123px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.my-cart-3 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1244px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
 /* CSS 4 */
 
@@ -1306,69 +1008,12 @@ html {
 .kopi-almond-latte {
   background: #ffe0b2;
   border-style: solid;
-  border-color: #000000;
+  border-color: #ffe0b2;
   border-width: 1px;
   width: 1440px;
   height: 1024px;
   position: relative;
   overflow: hidden;
-}
-.header-4 {
-  background: #3e2723;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
-  position: absolute;
-  left: 41px;
-  top: 30px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
-.title-4 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-ExtraBold", sans-serif;
-  font-size: 45px;
-  line-height: 150%;
-  font-weight: 800;
-  position: absolute;
-  left: 244px;
-  top: 62px;
-  width: 373px;
-  height: 87px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.r-4 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 30px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 569px;
-  top: 90px;
-  width: 27px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.subtitle-4 {
-  color: #ffe0b2;
-  text-align: center;
-  font-family: "Montserrat-SemiBoldItalic", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 600;
-  font-style: italic;
-  position: absolute;
-  left: 707px;
-  top: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .kopi-almond-latte2 {
   border-radius: 95px;
@@ -1603,121 +1248,6 @@ html {
   left: 860px;
   top: 859px;
 }
-.ellipse-10 {
-  background: rgba(255, 224, 178, 0.7);
-  border-radius: 50%;
-  width: 108px;
-  height: 109.2px;
-  position: absolute;
-  left: 84px;
-  top: 51px;
-}
-.rectangle-14 {
-  border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
-  position: absolute;
-  left: 86.7px;
-  top: 56.46px;
-}
-.home {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 548px;
-  top: 193px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.about-us {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 635px;
-  top: 193px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.our-products {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 700;
-  position: absolute;
-  left: 752px;
-  top: 193px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contact {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 910px;
-  top: 193px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.cart {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1015px;
-  top: 193px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.account {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1123px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.my-cart {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1244px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
 /* CSS 5 */
 
@@ -1735,140 +1265,13 @@ html {
 .kopi-cappuccino {
   background: #ffe0b2;
   border-style: solid;
-  border-color: #000000;
+  border-color: #ffe0b2;
   border-width: 1px;
   width: 1440px;
   height: 1024px;
   position: relative;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-}
-.header-5 {
-  background: #3e2723;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
-  position: absolute;
-  left: 41px;
-  top: 30px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
-.title-5 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-ExtraBold", sans-serif;
-  font-size: 45px;
-  line-height: 150%;
-  font-weight: 800;
-  position: absolute;
-  left: 244px;
-  top: 62px;
-  width: 373px;
-  height: 87px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.r-5 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 30px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 569px;
-  top: 90px;
-  width: 27px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.subtitle-5 {
-  color: #ffe0b2;
-  text-align: center;
-  font-family: "Montserrat-SemiBoldItalic", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 600;
-  font-style: italic;
-  position: absolute;
-  left: 707px;
-  top: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-5 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 465px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.about-us-5 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 552px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.our-products-5 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 700;
-  position: absolute;
-  left: 669px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contact-5 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 827px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.cart-5 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 932px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 .kopi-cappuccino2 {
   border-radius: 95px;
@@ -1982,51 +1385,6 @@ html {
   position: absolute;
   left: 860px;
   top: 859px;
-}
-.logo-back-5 {
-  background: rgba(255, 224, 178, 0.7);
-  border-radius: 50%;
-  width: 108px;
-  height: 109.2px;
-  position: absolute;
-  left: 84px;
-  top: 51px;
-}
-.logo-5 {
-  border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
-  position: absolute;
-  left: 86.7px;
-  top: 56.46px;
-}
-.account-5 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1119px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.my-cart-5 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1240px;
-  top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 .large-5 {
   color: #3e2723;
@@ -2165,139 +1523,12 @@ html {
 .kopi-susu {
   background: #ffe0b2;
   border-style: solid;
-  border-color: #000000;
+  border-color: #ffe0b2;
   border-width: 1px;
   width: 1440px;
   height: 1024px;
   position: relative;
   overflow: hidden;
-}
-.header-6 {
-  background: #3e2723;
-  border-radius: 30px;
-  width: 1358px;
-  height: 151px;
-  position: absolute;
-  left: 41px;
-  top: 30px;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
-.title-6 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-ExtraBold", sans-serif;
-  font-size: 45px;
-  line-height: 150%;
-  font-weight: 800;
-  position: absolute;
-  left: 244px;
-  top: 62px;
-  width: 373px;
-  height: 87px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.r-6 {
-  color: rgba(255, 224, 178, 0.8);
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 30px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 569px;
-  top: 90px;
-  width: 27px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.subtitle-6 {
-  color: #ffe0b2;
-  text-align: center;
-  font-family: "Montserrat-SemiBoldItalic", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 600;
-  font-style: italic;
-  position: absolute;
-  left: 707px;
-  top: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-6 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 465px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.about-us-6 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 552px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.our-products-6 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 700;
-  position: absolute;
-  left: 669px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contact-6 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 827px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.cart-6 {
-  color: #3e2723;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 932px;
-  top: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 .kopi-susu2 {
   border-radius: 95px;
@@ -2411,51 +1642,6 @@ html {
   position: absolute;
   left: 860px;
   top: 859px;
-}
-.logo-back-6 {
-  background: rgba(255, 224, 178, 0.7);
-  border-radius: 50%;
-  width: 108px;
-  height: 109.2px;
-  position: absolute;
-  left: 84px;
-  top: 51px;
-}
-.logo-6 {
-  border-radius: 19px;
-  width: 102.6px;
-  height: 95.55px;
-  position: absolute;
-  left: 86.7px;
-  top: 56.46px;
-}
-.account-6 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1123px;
-  top: 91px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.my-cart-6 {
-  color: #ffe0b2;
-  text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 1244px;
-  top: 91px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 .large-6 {
   color: #3e2723;
