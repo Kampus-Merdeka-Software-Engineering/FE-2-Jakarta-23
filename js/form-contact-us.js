@@ -4,7 +4,7 @@ function signIn() {
   const username = document.getElementById("usernameSignIn").value;
   const password = document.getElementById("passwordSignIn").value;
 
-  fetch("http://localhost:3000/login", {
+  fetch("http://localhost:3000/signup", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ username, password }),
@@ -20,7 +20,7 @@ function signUp() {
   const email = document.getElementById("emailSignUp").value;
   const password = document.getElementById("passwordSignUp").value;
 
-  fetch("http://localhost:3000/signup", {
+  fetch("http://localhost:3000/register", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ username, email, password }),
