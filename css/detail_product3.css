@@ -1,6 +1,6 @@
 /* css1 */
-.kopi-hitam,
-.kopi-hitam * {
+.arabika-luwak,
+.arabika-luwak * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -9,194 +9,194 @@
 html {
   max-width: 100%;
   overflow-x: hidden;
-}.home {
-    margin-top: 3px;
-    color: rgba(76, 175, 80, 0.8);
-    text-align: left;
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    position: fixed;
-    left: 720px;
-    top: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  .about-us {
-    margin-top: 3px;
-    color: rgba(76, 175, 80, 0.8);
-    text-align: left;
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    position: fixed;
-    left: 820px;
-    top: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  .our-products {
-    margin-top: 3px;
-    color: rgba(76, 175, 80, 0.8);
-    text-align: left;
-    font-family: "Montserrat-Bold", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 700;
-    position: fixed;
-    left: 950px;
-    top: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  .contact {
-    margin-top: 3px;
-    color: rgba(76, 175, 80, 0.8);
-    text-align: left;
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    position: fixed;
-    left: 1119px;
-    top: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  
-  .account {
-    margin-top: 3px;
-    color: #ffe0b2;
-    text-align: left;
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    position: fixed;
-    left: 1119px;
-    top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  .my-cart {
-    margin-top: 3px;
-    color: #ffe0b2;
-    text-align: left;
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    position: fixed;
-    left: 1240px;
-    top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  
-  .title {
-    margin-top: 3px;
-    color: rgba(255, 224, 178, 0.8);
-    text-align: left;
-    font-family: "Montserrat-ExtraBold", sans-serif;
-    font-size: 45px;
-    line-height: 150%;
-    font-weight: 800;
-    position: fixed;
-    left: 244px;
-    top: 70px;
-    width: 373px;
-    height: 87px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  .r {
-    margin-top: 3px;
-    color: rgba(255, 224, 178, 0.8);
-    text-align: left;
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 30px;
-    line-height: 150%;
-    font-weight: 400;
-    position: fixed;
-    left: 569px;
-    top: 99px;
-    width: 27px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 1200;
-  }
-  .subtitle {
-    margin-top: 3px;
-    color: #ffe0b2;
-    text-align: center;
-    font-family: "Montserrat-SemiBoldItalic", sans-serif;
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 600;
-    font-style: italic;
-    position: fixed;
-    left: 707px;
-    top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1200;
-  }
-  .logo-back {
-    margin-top: 3px;
-    background: rgba(255, 224, 178, 0.7);
-    border-radius: 50%;
-    width: 108px;
-    height: 109.2px;
-    position: fixed;
-    left: 84px;
-    top: 60px;
-    z-index: 1200;
-  }
-  .logo {
-    margin-top: 3px;
-    border-radius: 19px;
-    width: 117px;
-    height: 117px;
-    position: fixed;
-    left: 80px;
-    top: 60px;
-    z-index: 1200;
-  }
-  .header {
-    margin-top: 3px;
-    background: rgba(62, 39, 35, 0.8);
-    border-radius: 30px;
-    width: 1358px;
-    height: 190px;
-    position: fixed;
-    left: 41px;
-    top: 30px;
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(30px);
-    z-index: 1000;
-  }
+}
+.home {
+  margin-top: 3px;
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: fixed;
+  left: 720px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
+.about-us {
+  margin-top: 3px;
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: fixed;
+  left: 820px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
+.our-products {
+  margin-top: 3px;
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  position: fixed;
+  left: 950px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
+.contact {
+  margin-top: 3px;
+  color: rgba(76, 175, 80, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: fixed;
+  left: 1119px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
 
+.account {
+  margin-top: 3px;
+  color: #ffe0b2;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: fixed;
+  left: 1119px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
+.my-cart {
+  margin-top: 3px;
+  color: #ffe0b2;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  position: fixed;
+  left: 1240px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
 
-.kopi-hitam {
+.title {
+  margin-top: 3px;
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-size: 45px;
+  line-height: 150%;
+  font-weight: 800;
+  position: fixed;
+  left: 244px;
+  top: 70px;
+  width: 373px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
+.r {
+  margin-top: 3px;
+  color: rgba(255, 224, 178, 0.8);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+  font-weight: 400;
+  position: fixed;
+  left: 569px;
+  top: 99px;
+  width: 27px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1200;
+}
+.subtitle {
+  margin-top: 3px;
+  color: #ffe0b2;
+  text-align: center;
+  font-family: "Montserrat-SemiBoldItalic", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 600;
+  font-style: italic;
+  position: fixed;
+  left: 707px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+}
+.logo-back {
+  margin-top: 3px;
+  background: rgba(255, 224, 178, 0.7);
+  border-radius: 50%;
+  width: 108px;
+  height: 109.2px;
+  position: fixed;
+  left: 84px;
+  top: 60px;
+  z-index: 1200;
+}
+.logo {
+  margin-top: 3px;
+  border-radius: 19px;
+  width: 117px;
+  height: 117px;
+  position: fixed;
+  left: 80px;
+  top: 60px;
+  z-index: 1200;
+}
+.header {
+  margin-top: 3px;
+  background: rgba(62, 39, 35, 0.8);
+  border-radius: 30px;
+  width: 1358px;
+  height: 190px;
+  position: fixed;
+  left: 41px;
+  top: 30px;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  z-index: 1000;
+}
+
+.arabika-luwak {
   background: #ffe0b2;
   border-style: solid;
   border-color: #ffe0b2;
@@ -206,7 +206,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-.kopi-hitam2 {
+.arabika-luwak2 {
   border-radius: 95px;
   width: 506px;
   height: 443px;
@@ -265,7 +265,7 @@ html {
   left: 1220px;
   top: 854px;
 }
-.desc-kopi-hitam {
+.desc-arabika-luwak {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -295,7 +295,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.kopi-hitam3 {
+.arabika-luwak3 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -319,7 +319,7 @@ html {
   left: 860px;
   top: 859px;
 }
-.large {
+._250g {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -334,7 +334,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium {
+._500g {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -349,7 +349,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small {
+._1kg {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -391,7 +391,7 @@ html {
   left: 700px;
   top: 780px;
 }
-.hot {
+.Instant {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -406,7 +406,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.iced {
+.Ground Coffee {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -442,8 +442,8 @@ html {
 
 /* CSS 2 */
 
-.kopi-susu-tubruk,
-.kopi-susu-tubruk * {
+.kintmani-bali,
+.kintmani-bali * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -453,7 +453,7 @@ html {
   max-width: 100%;
   overflow-x: hidden;
 }
-.kopi-susu-tubruk {
+.kintmani-bali {
   background: #ffe0b2;
   border-style: solid;
   border-color: #ffe0b2;
@@ -464,7 +464,7 @@ html {
   overflow: hidden;
 }
 
-.kopi-susu-tubruk2 {
+.kintmani-bali2 {
   border-radius: 95px;
   width: 506px;
   height: 443px;
@@ -523,7 +523,7 @@ html {
   left: 1220px;
   top: 854px;
 }
-.desc-kopi-susu-tubruk {
+.desc-kintmani-bali {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -553,7 +553,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.kopi-susu-tubruk3 {
+.kintmani-bali3 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -577,7 +577,7 @@ html {
   left: 860px;
   top: 859px;
 }
-.large-2 {
+.__250g-2 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -592,7 +592,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium-2 {
+._500g-2 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -607,7 +607,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small-2 {
+._1kg-2 {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -649,7 +649,7 @@ html {
   left: 700px;
   top: 780px;
 }
-.hot-2 {
+.Instant-2 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -664,7 +664,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.iced-2 {
+.Ground Coffee-2 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -700,8 +700,8 @@ html {
 
 /* CSS 3 */
 
-.kopi-oat-latte,
-.kopi-oat-latte * {
+.arabika-gayo,
+.arabika-gayo * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -711,7 +711,7 @@ html {
   max-width: 100%;
   overflow-x: hidden;
 }
-.kopi-oat-latte {
+.arabika-gayo {
   background: #ffe0b2;
   border-style: solid;
   border-color: #ffe0b2;
@@ -779,7 +779,7 @@ html {
   justify-content: flex-start;
 }
 
-.kopi-oat-latte2 {
+.arabika-gayo2 {
   border-radius: 95px;
   width: 506px;
   height: 443px;
@@ -838,7 +838,7 @@ html {
   left: 1220px;
   top: 854px;
 }
-.kopi-oat-latte-desc {
+.arabika-gayo-desc {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -868,7 +868,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.kopi-oat-latte3 {
+.arabika-gayo3 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -892,7 +892,7 @@ html {
   left: 860px;
   top: 859px;
 }
-.large-3 {
+.__250g-3 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -907,7 +907,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium-3 {
+._500g-3 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -922,7 +922,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small-3 {
+._1kg-3 {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -964,7 +964,7 @@ html {
   left: 707px;
   top: 787px;
 }
-.hot-3 {
+.Instant-3 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -979,7 +979,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.iced-3 {
+.Ground Coffee-3 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1015,8 +1015,8 @@ html {
 
 /* CSS 4 */
 
-.kopi-almond-latte,
-.kopi-almond-latte * {
+.java-coffee,
+.java-coffee * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -1027,7 +1027,7 @@ html {
   overflow-x: hidden;
 }
 
-.kopi-almond-latte {
+.java-coffee {
   background: #ffe0b2;
   border-style: solid;
   border-color: #ffe0b2;
@@ -1037,7 +1037,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-.kopi-almond-latte2 {
+.java-coffee2 {
   border-radius: 95px;
   width: 532px;
   height: 431px;
@@ -1096,7 +1096,7 @@ html {
   left: 1220px;
   top: 854px;
 }
-.kopi-almond-latte-desc {
+.java-coffee-desc {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -1126,7 +1126,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.large-4 {
+.__250g-4 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1141,7 +1141,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium-4 {
+._500g-4 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1156,7 +1156,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small-4 {
+._1kg-4 {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1198,7 +1198,7 @@ html {
   left: 709px;
   top: 780px;
 }
-.hot-4 {
+.Instant-4 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1213,7 +1213,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.iced-4 {
+.Ground Coffee-4 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1246,7 +1246,7 @@ html {
   left: 963px;
   top: 742px;
 }
-.kopi-almond-latte3 {
+.java-coffee3 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1273,8 +1273,8 @@ html {
 
 /* CSS 5 */
 
-.kopi-cappuccino,
-.kopi-cappuccino * {
+.toraja-bali,
+.toraja-bali * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -1284,7 +1284,7 @@ html {
   max-width: 100%;
   overflow-x: hidden;
 }
-.kopi-cappuccino {
+.toraja-bali {
   background: #ffe0b2;
   border-style: solid;
   border-color: #ffe0b2;
@@ -1295,7 +1295,7 @@ html {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-.kopi-cappuccino2 {
+.toraja-bali2 {
   border-radius: 95px;
   width: 532px;
   height: 431px;
@@ -1354,7 +1354,7 @@ html {
   left: 1220px;
   top: 854px;
 }
-.kopi-cappuccino-desc {
+.toraja-bali-desc {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -1384,7 +1384,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.kopi-cappuccino3 {
+.toraja-bali3 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1408,7 +1408,7 @@ html {
   left: 860px;
   top: 859px;
 }
-.large-5 {
+.__250g-5 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1423,7 +1423,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium-5 {
+._500g-5 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1438,7 +1438,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small-5 {
+._1kg-5 {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1498,7 +1498,7 @@ html {
   left: 707px;
   top: 780px;
 }
-.hot-5 {
+.Instant-5 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1513,7 +1513,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.iced-5 {
+.Ground Coffee-5 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1530,8 +1530,8 @@ html {
 }
 /* CSS 6 */
 
-.kopi-susu,
-.kopi-susu * {
+.mandheling-coffee,
+.mandheling-coffee * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -1542,7 +1542,7 @@ html {
   overflow-x: hidden;
 }
 
-.kopi-susu {
+.mandheling-coffee {
   background: #ffe0b2;
   border-style: solid;
   border-color: #ffe0b2;
@@ -1552,7 +1552,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-.kopi-susu2 {
+.mandheling-coffee2 {
   border-radius: 95px;
   width: 532px;
   height: 431px;
@@ -1611,7 +1611,7 @@ html {
   left: 1220px;
   top: 854px;
 }
-.kopi-susu-desc {
+.mandheling-coffee-desc {
   color: #000000;
   text-align: justified;
   font-family: "Montserrat-Regular", sans-serif;
@@ -1641,7 +1641,7 @@ html {
   align-items: center;
   justify-content: undefined;
 }
-.kopi-susu3 {
+.mandheling-coffee3 {
   color: #3e2723;
   text-align: left;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1665,7 +1665,7 @@ html {
   left: 860px;
   top: 859px;
 }
-.large-6 {
+.__250g-6 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1680,7 +1680,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.medium-6 {
+._500g-6 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1695,7 +1695,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.small-6 {
+._1kg-6 {
   color: #000000;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1737,7 +1737,7 @@ html {
   left: 707px;
   top: 775px;
 }
-.hot-6 {
+.Instant-6 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
@@ -1752,7 +1752,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.iced-6 {
+.Ground Coffee-6 {
   color: #3e2723;
   text-align: center;
   font-family: "Montserrat-SemiBoldItalic", sans-serif;
