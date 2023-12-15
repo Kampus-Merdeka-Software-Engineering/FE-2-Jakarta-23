@@ -1,10 +1,4 @@
 
-const runApi = () => {
-  console.log('running Fetch API');
-};
-
-runApi();
-
 // script.js
 function handleResponsive() {
   const exploreLink = document.getElementById("explore-link");
