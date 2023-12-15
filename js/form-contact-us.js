@@ -1,12 +1,14 @@
 // form-contact-us.js
-function signIn() {
-  const username = document.getElementById("usernameSignIn").value;
-  const password = document.getElementById("passwordSignIn").value;
+function contact() {
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
 
-  fetch("http://localhost:3000/signup", {
+
+  fetch("http://localhost:3000/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ username, password }),
+    body: JSON.stringify({ name, email, message }),
   })
     .then((response) => response.json())
     .then((data) => {
