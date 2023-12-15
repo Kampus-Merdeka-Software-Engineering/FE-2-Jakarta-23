@@ -1,5 +1,6 @@
 // script.js
 
+
 function handleResponsive() {
   const exploreLink = document.getElementById("explore-link");
   const scrollProduct = document.querySelector(".scroll-product");
