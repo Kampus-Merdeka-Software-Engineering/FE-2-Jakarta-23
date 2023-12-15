@@ -16,18 +16,15 @@ handleResponsive();
 // JS SCRIPT.JS
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Add a click event listener to the "Learn more" buttons
   var learnMoreButtons = document.querySelectorAll(
     ".learn-more, .learn-more2, .learn-more3, .learn-more4"
   );
   learnMoreButtons.forEach(function (button) {
     button.addEventListener("click", function (event) {
-      // Handle the click event, you can add your logic here
       alert("Learn more clicked!");
     });
   });
 
-  // Toggle class based on window size
   window.addEventListener("resize", function () {
     toggleClassBasedOnWindowSize();
   });
