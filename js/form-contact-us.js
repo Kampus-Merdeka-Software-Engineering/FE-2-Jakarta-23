@@ -1,5 +1,4 @@
 // form-contact-us.js
-
 function signIn() {
   const username = document.getElementById("usernameSignIn").value;
   const password = document.getElementById("passwordSignIn").value;
